@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ecommerce-config
+data:
+  SPRING_PROFILES_ACTIVE: "prod"
+  # add other env keys if needed
